@@ -1,9 +1,9 @@
 function Hero() {
   return (
-    <div>
-      <section className="bg-gray-800 text-gray-100">
+    <div className=" bg-gray-800">
+      <section className="max-w-6xl mx-auto text-gray-100">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-          <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+          <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left text-white">
             <h1 className="text-4xl font-bold leading-none mb-5 ">
               Style Haven: Where <br />
               Beauty
@@ -13,14 +13,14 @@ function Hero() {
               <a
                 rel="noopener noreferrer"
                 href="#"
-                className="px-8 py-3 text-lg font-semibold rounded bg-violet-400 text-gray-900"
+                className=" px-8 py-3 text-lg font-semibold rounded-lg bg-violet-400 text-white hover:bg-violet-500 active:bg-violet-400"
               >
                 Beauty Style
               </a>
               <a
                 rel="noopener noreferrer"
                 href="#"
-                className="px-8 py-3 text-lg font-semibold border rounded border-gray-100"
+                className="px-8 py-3 text-lg font-semibold border rounded-lg border-violet-400 hover:bg-violet-500 active:bg-violet-400 duration-300 hover:text-white"
               >
                 Hair Cut
               </a>
